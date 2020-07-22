@@ -125,7 +125,7 @@
                                                      Grid.Row="2"
                                                      Margin="5"/>
                                             
-                                            <Label Content="오디오 포멧"
+                                            <Label Content="소리 포멧"
                                                    Grid.Row="3"/>
                                             
                                             <ComboBox ItemsSource="{Binding DataContext.AudioCodecNames, ElementName=CustomCodecsPanel}"

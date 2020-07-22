@@ -23,8 +23,8 @@ namespace Captura.ViewModels
         public ObservableCollection<IVideoWriterProvider> VideoWriterProviders { get; } = new ObservableCollection<IVideoWriterProvider>();
 
         const string NoVideoDescription = @"영상이 녹화되지 않습니다.
-오디오 전용 녹음에 사용할 수 있습니다.
-오디오 소스가 활성화되어 있는지 확인하십시오.";
+소리 전용 녹음에 사용할 수 있습니다.
+소리 소스가 활성화되어 있는지 확인하십시오.";
 
         const string FullScreenDescription = "전체화면을 녹화합니다.";
 

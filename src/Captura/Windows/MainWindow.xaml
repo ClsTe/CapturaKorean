@@ -5,10 +5,10 @@
         xmlns:local="clr-namespace:Captura"
         DataContext="{Binding MainViewModel, Source={StaticResource ServiceLocator}}"
         ResizeMode="CanMinimize"
-        Icon="../Images/Captura.ico"
+        Icon="../Images/ayatrecorder.ico"
         SizeToContent="Height"
         MaxWidth="450"
-        Title="Captura"
+        Title="니가녹화되니"
         Left="{Binding Settings.UI.MainWindowLeft}"
         Top="{Binding Settings.UI.MainWindowTop}"
         BorderThickness="1"
@@ -22,7 +22,7 @@
     </WindowChrome.WindowChrome>
     <Window.TaskbarItemInfo>
         <TaskbarItemInfo Overlay="{Binding RecordingViewModel.RecorderState, Converter={StaticResource StateToTaskbarOverlayConverter}}"
-                         Description="Captura">
+                         Description="화면 녹화 프로그램">
             <TaskbarItemInfo.ThumbButtonInfos>
                 <ThumbButtonInfo Command="{Binding ScreenShotViewModel.ScreenShotCommand}"
                                  Description="{Binding ScreenShot, Source={StaticResource Loc}, Mode=OneWay}"
@@ -44,7 +44,7 @@
         <!-- NotifyIcon -->
         <tb:TaskbarIcon x:Name="SystemTray"
                         IconSource="{Binding RecordingViewModel.RecorderState, Converter={StaticResource StateToTrayIconSourceConverter}}"
-                        ToolTipText="Captura"
+                        ToolTipText="니가녹화되니"
                         MenuActivation="RightClick"
                         LeftClickCommand="{Binding TrayLeftClickCommand}"
                         TrayMouseDoubleClick="SystemTray_TrayMouseDoubleClick">
@@ -299,9 +299,9 @@
                 </DockPanel>
             </Expander.Header>
             <DockPanel Margin="-5,0,0,0"
-                       Height="550">
-                <TextBlock TextWrapping="Wrap" DockPanel.Dock="Bottom" Margin="5" Opacity="0.9">
-                    Mathew Sachin이 제작한 Captura를 ClassTech가 한글화했습니다.
+                       Height="510">
+                <TextBlock TextWrapping="Wrap" DockPanel.Dock="Bottom" Margin="6, 5, 5, 5" Opacity="0.9" Foreground="#FF333333">
+                    본 프로그램은 Mathew Sachin의 Captura를 기반으로 제작되었습니다. 
                     <Hyperlink Click="Hyperlink_Click"><Run>도움말</Run></Hyperlink>
                 </TextBlock>
                 <!--<Label Margin="5"
@@ -309,7 +309,7 @@
                        Opacity="0.9"
                        DockPanel.Dock="Bottom"/>-->
          
-                <local:OutputFolderControl DockPanel.Dock="Bottom"/>
+                <local:OutputFolderControl DockPanel.Dock="Bottom" Margin="5,0,0,0"/>
 
                 <Frame Source="../Pages/MainPage.xaml"/>
             </DockPanel>

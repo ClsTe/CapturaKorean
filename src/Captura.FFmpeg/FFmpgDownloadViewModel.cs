@@ -70,7 +70,8 @@ namespace Captura.ViewModels
             {
                 var localAppDataPath = Environment.GetFolderPath(Environment.SpecialFolder.LocalApplicationData);
 
-                _targetFolder = Path.Combine(localAppDataPath, "Captura");
+                //CAPTURA PATH
+                _targetFolder = Path.Combine(localAppDataPath, "AyatRecorder");
             }
 
             if (!Directory.Exists(_targetFolder))

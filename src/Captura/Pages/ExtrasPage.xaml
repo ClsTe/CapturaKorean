@@ -5,10 +5,10 @@
       DataContext="{Binding MainViewModel, Source={StaticResource ServiceLocator}}">
     <Grid>
         <StackPanel>
-            <CheckBox IsChecked="{Binding Settings.UI.DarkTheme}"
+            <!--<CheckBox IsChecked="{Binding Settings.UI.DarkTheme}"
                       Click="DarkThemeClick"
                       Content="{Binding DarkTheme, Source={StaticResource Loc}, Mode=OneWay}"
-                      Margin="0,5"/>
+                      Margin="0,5"/>-->
 
             <Grid Margin="0,5">
                 <Grid.ColumnDefinitions>

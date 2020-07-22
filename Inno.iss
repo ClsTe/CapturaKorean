@@ -1,10 +1,10 @@
 ; Override version before compiling
 ;#define MyAppVersion "6.0.0"
 
-#define MyAppName "Captura KO"
+#define MyAppName "니가녹화되니"
 #define MyAppPublisher "ClassTech"
 #define MyAppURL "https://MathewSachin.github.io/Captura"
-#define MyAppExeName "capturaKo.exe"
+#define MyAppExeName "ayatrecorder.exe"
 
 [Setup]
 AppId={{C1670C5E-5042-4300-9491-6BFFF963823F}
@@ -20,11 +20,11 @@ DisableProgramGroupPage=yes
 OutputBaseFilename=Captura-Setup
 Compression=lzma
 SolidCompression=yes
-SetupIconFile=src/Captura/Images/Captura.ico
+SetupIconFile=src/Captura/Images/ayatrecorder.ico
 OutputDir=temp
 
 [Languages]
-Name: "korean"; MessagesFile: "compiler:Default.isl"
+Name: "korean"; MessagesFile: "compiler:Korean.isl"
 
 [Tasks]
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked

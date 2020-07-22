@@ -5,7 +5,7 @@
     <Grid>
         <StackPanel>
             <Label Margin="0,3"
-                   Content="{Binding WebCam, Source={StaticResource Loc}, Mode=OneWay}"
+                   Content="웹캠 설정"
                    FontWeight="Bold"/>
 
             <DockPanel Margin="0,5">

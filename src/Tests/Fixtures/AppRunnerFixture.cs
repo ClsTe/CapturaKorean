@@ -15,7 +15,7 @@ namespace Captura.Tests.Views
         {
             App = Application.Launch(new ProcessStartInfo(TestManagerFixture.GetUiPath(), "--no-persist"));
 
-            MainWindow = App.GetWindow("Captura");
+            MainWindow = App.GetWindow("니가녹화되니");
         }
 
         public void Dispose()

@@ -17,7 +17,7 @@ namespace Captura
                     return "/Images/pause.ico";
 
                 default:
-                    return "/Images/Captura.ico";
+                    return "/Images/ayatrecorder.ico";
             }
         }
     }

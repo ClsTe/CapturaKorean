@@ -119,7 +119,7 @@ namespace Captura.ViewModels
 
             // If Output Dircetory is not set. Set it to Documents\Captura\
             if (string.IsNullOrWhiteSpace(Settings.OutPath))
-                Settings.OutPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "Captura");
+                Settings.OutPath = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments), "AyatRecorder");
 
             // Create the Output Directory if it does not exist
             Settings.EnsureOutPath();
@@ -228,7 +228,7 @@ namespace Captura.ViewModels
             if (AudioSource is NoAudioSource)
             {
                 ServiceProvider.MessageProvider.ShowError(
-                    "bass.dll 또는 bassmix.dll 파일을 찾을 수 없습니다.\n소리 녹음이 불가능 합니다.", "오디오 없음");
+                    "bass.dll 또는 bassmix.dll 파일을 찾을 수 없습니다.\n소리 녹음이 불가능 합니다.", "소리 없음");
             }
         }
         

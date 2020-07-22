@@ -245,7 +245,7 @@ namespace Captura
         {
             if (!FFmpegService.FFmpegExists)
             {
-                ModernDialog.ShowMessage("FFmpeg not Found", "FFmpeg not Found", MessageBoxButton.OK, _window);
+                ModernDialog.ShowMessage("FFmpeg를 찾을 수 없음", "FFmpeg를 찾을 수 없습니다.", MessageBoxButton.OK, _window);
 
                 return;
             }

@@ -17,7 +17,7 @@ namespace Captura
             get
             {
                 if (_settingsDir == null)
-                    _settingsDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Captura");
+                    _settingsDir = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "AyatRecorder");
 
                 if (!Directory.Exists(_settingsDir))
                     Directory.CreateDirectory(_settingsDir);

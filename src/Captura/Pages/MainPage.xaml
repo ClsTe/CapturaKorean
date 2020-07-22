@@ -34,7 +34,7 @@
                         <StackPanel>
                             <TextBlock Text="{Binding IncludeClicks, Source={StaticResource Loc}, Mode=OneWay}"
                                        Margin="0,0,0,2"/>
-                            <TextBlock Text="설정→오버레이에서 색상, 투명도, 테두리 등을 설정할 수 있습니다."
+                            <TextBlock Text="설정→추가 개체 설정에서 색상, 투명도, 테두리 등을 설정할 수 있습니다."
                                        FontSize="10"/>
                         </StackPanel>
                     </local:ModernToggleButton.ToolTip>
@@ -45,7 +45,7 @@
                         <StackPanel>
                             <TextBlock Text="{Binding IncludeKeys, Source={StaticResource Loc}, Mode=OneWay}"
                                        Margin="0,0,0,2"/>
-                            <TextBlock Text="설정→오버레이에서 색상, 투명도, 테두리 등을 설정할 수 있습니다."
+                            <TextBlock Text="설정→추가 개체 설정에서 색상, 투명도, 테두리 등을 설정할 수 있습니다."
                                        FontSize="10"/>
                         </StackPanel>
                     </local:ModernToggleButton.ToolTip>
@@ -57,7 +57,7 @@
                         <StackPanel>
                             <TextBlock Text="{Binding Elapsed, Source={StaticResource Loc}, Mode=OneWay}"
                                        Margin="0,0,0,2"/>
-                            <TextBlock Text="설정→오버레이에서 색상, 투명도, 테두리 등을 설정할 수 있습니다.."
+                            <TextBlock Text="설정→추가 개체 설정에서 색상, 투명도, 테두리 등을 설정할 수 있습니다.."
                                        FontSize="10"/>
                         </StackPanel>
                     </local:ModernToggleButton.ToolTip>

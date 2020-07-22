@@ -28,8 +28,8 @@
                     <TextBlock TextWrapping="Wrap"
                                LineHeight="30"
                                Style="{StaticResource TextColor}">
-                        <Run FontSize="20" Text="Captura 한글"/> <Run Text="{Binding AppVersion, Mode=OneWay}"/><LineBreak/>
-                        <Hyperlink CommandParameter="https://classtech.co.kr">번역 수정: 클래스테크</Hyperlink>
+                        <Run FontSize="20" Text="니가녹화되니"/> <Run Text="v0.1 Originally ©Mathew Sachin"/><LineBreak/>
+                        <Hyperlink CommandParameter="https://classtech.co.kr">수정 제작: 클래스테크</Hyperlink>
                     </TextBlock>
                 </DockPanel>
 
@@ -75,7 +75,7 @@
                               HorizontalAlignment="Center"
                               VerticalAlignment="Center"/>
 
-                        <TextBlock Text="Captura 영문 웹사이트"/>
+                        <TextBlock Text="Captura 웹사이트"/>
                     </DockPanel>
                 </Button>
 
