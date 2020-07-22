@@ -1,9 +1,9 @@
-# Captura 한글
+# 니가녹화되니 (Ayat Recorder)
 
-본 프로그램은 Mathew Sachin이 제작한 <a href="https://mathewsachin.github.io/Captura">Captura</a>를 한글화 및 부분 수정한 Captura 한글 프로그램입니다.
-본 프로그램의 변경 및 보수와 관련해서는 Captura와 독립적으로 운영됩니다.
+본 프로그램은 Mathew Sachin이 제작한 <a href="https://mathewsachin.github.io/Captura">Captura</a>를 한글화 및 수정·단순화한 프로그램입니다.
+본 프로그램의 유지 및 개선과 관련해서는 Captura와 독립적으로 운영됩니다.
 
-
+---ORIGINAL---
 [![Master Build Status](https://img.shields.io/appveyor/ci/MathewSachin/Captura/master.svg?style=flat-square)](https://ci.appveyor.com/project/MathewSachin/Captura)
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat-square)](LICENSE.md)
 [![Chat](https://img.shields.io/badge/chat-on_gitter-yellow.svg?style=flat-square)](https://gitter.im/MathewSachin/Captura)
